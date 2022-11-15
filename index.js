@@ -69,7 +69,8 @@ const app = require("express")();
 // const PORT = 7000;
 
 app.get('/',(req, res)=>{
-  res.json("succesfully connected arn")  
+  res.json("succesfully connected arn") ;
+    res.json(process.env.PORT);
 });
 const users = {};
 
