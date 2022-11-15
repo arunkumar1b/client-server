@@ -247,9 +247,7 @@ background: #eee;
  /* .row+.row{
   display: none !important;
 }  */
-.row:nth-child(even){
-  display: none !important;
-}
+
 /* .row + .row{
   display: none !important;
 } */  
