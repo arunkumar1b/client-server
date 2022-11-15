@@ -68,7 +68,9 @@ const app = require("express")();
  });
 // const PORT = 7000;
 
-
+app.get('/',(req, res)=>{
+  res.json("succesfully connected arn")  
+});
 const users = {};
 
 io.on("connection", (socket) => {
